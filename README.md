@@ -33,53 +33,33 @@
 
 ## 🚀 Quick Start
 
-### 你需要什么
-
-- **Android Studio**（最新稳定版即可）
-- **Android SDK** 34+（Android Studio 自带）
-- （可选）**API Keys** — 见下方说明
-
-### 步骤
-
-<details>
-<summary><b>方式一：下载 ZIP</b></summary>
-
-```bash
-# 下载 ZIP 后解压，然后用 Android Studio 打开即可
-```
-
-</details>
-
-<details>
-<summary><b>方式二：git clone（推荐）</b></summary>
+**零配置开箱即用** — 不需要任何 API Key，clone 下来就能跑。
 
 ```bash
 git clone https://github.com/LI-IIIJL/worldcup-2026.git
 ```
 
-</details>
+然后用 Android Studio → **File → Open** → 选 `worldcup-2026` 文件夹 → 等 Gradle Sync 完成 → 点 **Run ▶️**
 
-### 然后
+> 首次打开 Android Studio 会自动创建 `local.properties`（SDK 路径），核心功能（赛程、球队百科、积分榜、AI FAQ）全部离线可用。不需要任何注册或配置。
 
-```
-1. 用 Android Studio → File → Open → 选择 worldcup-2026 文件夹
-2. 等待 Gradle Sync 完成（首次需下载依赖，约 1-2 分钟）
-3. 连接手机或启动模拟器 → 点击 Run ▶️
-```
-
-### API Keys 配置（可选，不配也能跑）
-
-App 核心功能（赛程、球队百科、积分榜、AI FAQ）**全离线可用，零配置**。只有实时比分、球员照片、AI 增强需要 API Key：
+<details>
+<summary><b>高级：配置 API Keys（可选，仅实时比分/照片/AI 增强需要）</b></summary>
 
 ```bash
-# 复制模板
 cp local.properties.example local.properties
-
-# 编辑 local.properties，填入你的 Key（不需要的留空即可）
+# 编辑 local.properties，填入 Key（不需要的留空）
 ```
 
 | Key | 用途 | 不配的话 |
 |:----|:-----|:---------|
+| `FOOTBALL_DATA_API_KEY` | 实时比分、积分榜 | 显示本地赛程（比分全是 0-0） |
+| `API_SPORTS_KEY` | 球员照片、阵容 | 照片区域显示占位图 |
+| `BALLDONTLIE_API_KEY` | 高级统计、射门图 | 该区域不显示数据 |
+| `DEEPSEEK_API_KEY`（用 LongCat） | AI 对话增强 | AI 仍能回答 42 条本地 FAQ |
+
+> 建议先跑起来看看，觉得有用再去申请。LongCat AI 每天免费 5M tokens。
+</details>
 | `FOOTBALL_DATA_API_KEY` | 实时比分、积分榜 | 显示本地赛程（比分全是 0-0） |
 | `API_SPORTS_KEY` | 球员照片、阵容 | 照片区域显示占位图 |
 | `BALLDONTLIE_API_KEY` | 高级统计、射门图 | 该区域不显示数据 |
