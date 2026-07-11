@@ -17,17 +17,46 @@
 
 ## 📱 Demo
 
-<!-- 替换为你的截图路径 -->
 <p align="center">
   <img src="screenshots/tab-schedule.jpg" width="170" alt="赛程" />
   <img src="screenshots/tab-teams.jpg" width="170" alt="球队" />
-  <img src="screenshots/tab-live.jpg" width="170" alt="实时" />
+  <img src="screenshots/tab-match.jpg" width="170" alt="比赛详情" />
   <img src="screenshots/tab-ai-chat.jpg" width="170" alt="AI 对话" />
   <img src="screenshots/tab-data.jpg" width="170" alt="数据" />
 </p>
 
-<!-- 替换为你的 GIF 路径 -->
-<!-- <p align="center"><img src="screenshots/demo.gif" width="250" /></p> -->
+<details>
+<summary><b>📸 更多截图（点开看）</b></summary>
+
+### 数据看板
+
+| 淘汰赛对阵 | 积分榜 | 射手榜 |
+|:---:|:---:|:---:|
+| ![](screenshots/gallery/bracket.jpg) | ![](screenshots/gallery/standings.jpg) | ![](screenshots/gallery/scorers.jpg) |
+
+| 抢断榜 | 牌榜 |
+|:---:|:---:|
+| ![](screenshots/gallery/tackles.jpg) | ![](screenshots/gallery/cards.jpg) |
+
+### 比赛详情
+
+| 数据对比 |
+|:---:|
+| ![](screenshots/gallery/match-stats.jpg) |
+
+### 球员详情
+
+| 球员卡 | 赛季详细统计 |
+|:---:|:---:|
+| ![](screenshots/gallery/player-profile.jpg) | ![](screenshots/gallery/player-stats.jpg) |
+
+### AI 对话
+
+| 姆巴佩 | 越位规则 | 1/4决赛预测 |
+|:---:|:---:|:---:|
+| ![](screenshots/gallery/ai-1-mbappe.jpg) | ![](screenshots/gallery/ai-2-dembele.jpg) | ![](screenshots/gallery/ai-3-predict.jpg) |
+
+</details>
 
 ---
 
