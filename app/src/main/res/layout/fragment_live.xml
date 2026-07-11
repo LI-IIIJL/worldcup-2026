@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0F0F23"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tv_live_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📡 实时赛况"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Content (hidden when empty) -->
+    <LinearLayout
+        android:id="@+id/live_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!-- Score card -->
+        <LinearLayout
+            android:id="@+id/score_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="#1A1A2E"
+            android:padding="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <!-- Home -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/iv_home_flag"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp" />
+                <TextView
+                    android:id="@+id/tv_home_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <!-- Score -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingHorizontal="16dp">
+                <TextView
+                    android:id="@+id/tv_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="— : —"
+                    android:textColor="#FFFFFF"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tv_ht_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#8888AA"
+                    android:textSize="11sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <!-- Away -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/iv_away_flag"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp" />
+                <TextView
+                    android:id="@+id/tv_away_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Match info -->
+        <TextView
+            android:id="@+id/tv_match_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#8888AA"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_marginTop="12dp" />
+
+        <!-- Venue info -->
+        <TextView
+            android:id="@+id/tv_venue_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#666688"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        <!-- Prediction -->
+        <TextView
+            android:id="@+id/tv_prediction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF6B35"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:visibility="gone" />
+
+        <!-- Hint -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💡 点击卡片查看完整比赛数据"
+            android:textColor="#555577"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <!-- 预测列表容器 (无直播时显示) -->
+    <ScrollView
+        android:id="@+id/prediction_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone">
+        <LinearLayout
+            android:id="@+id/prediction_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <!-- Empty state -->
+    <TextView
+        android:id="@+id/tv_empty"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="🏟️ 当前无直播比赛\n最近比赛数据将自动显示"
+        android:textColor="#555577"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:lineSpacingExtra="8dp" />
+
+    <!-- 跳转赛程 -->
+    <TextView
+        android:id="@+id/btn_goto_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📅 查看全部赛程 →"
+        android:textColor="#8888AA"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:clickable="true"
+        android:focusable="true" />
+</LinearLayout>

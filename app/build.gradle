@@ -1,0 +1,119 @@
+plugins {
+    alias(libs.plugins.android.application)
+    // AGP 9.x 已内置 Kotlin 支持，无需再应用 kotlin-android 插件
+}
+
+// 从 keystore.properties 加载签名配置
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+def keystoreProperties = new Properties()
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+android {
+    namespace 'worldcup.helper'
+    compileSdk 36
+
+    buildFeatures {
+        viewBinding true
+        buildConfig true
+    }
+
+    // 从 local.properties 读取 API Keys
+    def localProps = new Properties()
+    def localPropsFile = rootProject.file("local.properties")
+    if (localPropsFile.exists()) {
+        localProps.load(new FileInputStream(localPropsFile))
+    }
+
+    defaultConfig {
+        applicationId "worldcup.helper"
+        minSdk 26
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String", "DEEPSEEK_API_KEY", "\"${localProps.getProperty("DEEPSEEK_API_KEY", "")}\""
+        buildConfigField "String", "BALLDONTLIE_API_KEY", "\"${localProps.getProperty("BALLDONTLIE_API_KEY", "")}\""
+        buildConfigField "String", "FOOTBALL_DATA_API_KEY", "\"${localProps.getProperty("FOOTBALL_DATA_API_KEY", "")}\""
+        buildConfigField "String", "API_SPORTS_KEY", "\"${localProps.getProperty("API_SPORTS_KEY", "")}\""
+    }
+
+    signingConfigs {
+        release {
+            if (keystorePropertiesFile.exists()) {
+                storeFile file(keystoreProperties['storeFile'])
+                storePassword keystoreProperties['storePassword']
+                keyAlias keystoreProperties['keyAlias']
+                keyPassword keystoreProperties['keyPassword']
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    packaging {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+    }
+}
+
+dependencies {
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.activity.ktx
+    implementation libs.androidx.constraintlayout
+    implementation libs.material
+
+    // RecyclerView
+    implementation libs.androidx.recyclerview
+
+    // Gson for JSON parsing
+    implementation libs.gson
+
+    // SVG rendering for circle-flags
+    implementation libs.androidsvg
+
+    // Coil for image loading (player photos)
+    implementation libs.coil
+
+    // OkHttp for DeepSeek API
+    implementation libs.okhttp
+
+    // Retrofit for API integration
+    implementation libs.retrofit
+    implementation libs.retrofit.gson
+    implementation libs.okhttp.logging
+
+    // Lifecycle
+    implementation libs.lifecycle.viewmodel
+    implementation libs.lifecycle.runtime
+    implementation libs.lifecycle.livedata
+
+    // SwipeRefreshLayout
+    implementation libs.androidx.swiperefreshlayout
+    implementation libs.kotlinx.coroutines.core
+    implementation libs.kotlinx.coroutines.android
+
+    // Fragment KTX (for by viewModels() in Fragment)
+    implementation libs.androidx.fragment.ktx
+
+    // Test
+    testImplementation libs.junit
+    androidTestImplementation libs.androidx.espresso.core
+    androidTestImplementation libs.androidx.junit
+}

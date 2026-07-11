@@ -1,0 +1,434 @@
+[
+  {
+    "id": "1",
+    "name": "Mexico",
+    "nameCn": "墨西哥",
+    "fifaCode": "MEX",
+    "iso2": "MX",
+    "group": "A",
+    "flag": "https://flagcdn.com/w80/mx.png"
+  },
+  {
+    "id": "2",
+    "name": "South Africa",
+    "nameCn": "南非",
+    "fifaCode": "RSA",
+    "iso2": "ZA",
+    "group": "A",
+    "flag": "https://flagcdn.com/w80/za.png"
+  },
+  {
+    "id": "3",
+    "name": "South Korea",
+    "nameCn": "韩国",
+    "fifaCode": "KOR",
+    "iso2": "KR",
+    "group": "A",
+    "flag": "https://flagcdn.com/w80/kr.png"
+  },
+  {
+    "id": "4",
+    "name": "Czech Republic",
+    "nameCn": "捷克",
+    "fifaCode": "CZE",
+    "iso2": "CZ",
+    "group": "A",
+    "flag": "https://flagcdn.com/w80/cz.png"
+  },
+  {
+    "id": "5",
+    "name": "Canada",
+    "nameCn": "加拿大",
+    "fifaCode": "CAN",
+    "iso2": "CA",
+    "group": "B",
+    "flag": "https://flagcdn.com/w80/ca.png"
+  },
+  {
+    "id": "6",
+    "name": "Bosnia and Herzegovina",
+    "nameCn": "波黑",
+    "fifaCode": "BIH",
+    "iso2": "BA",
+    "group": "B",
+    "flag": "https://flagcdn.com/w80/ba.png"
+  },
+  {
+    "id": "7",
+    "name": "Qatar",
+    "nameCn": "卡塔尔",
+    "fifaCode": "QAT",
+    "iso2": "QA",
+    "group": "B",
+    "flag": "https://flagcdn.com/w80/qa.png"
+  },
+  {
+    "id": "8",
+    "name": "Switzerland",
+    "nameCn": "瑞士",
+    "fifaCode": "SUI",
+    "iso2": "CH",
+    "group": "B",
+    "flag": "https://flagcdn.com/w80/ch.png"
+  },
+  {
+    "id": "9",
+    "name": "Brazil",
+    "nameCn": "巴西",
+    "fifaCode": "BRA",
+    "iso2": "BR",
+    "group": "C",
+    "flag": "https://flagcdn.com/w80/br.png"
+  },
+  {
+    "id": "10",
+    "name": "Morocco",
+    "nameCn": "摩洛哥",
+    "fifaCode": "MAR",
+    "iso2": "MA",
+    "group": "C",
+    "flag": "https://flagcdn.com/w80/ma.png"
+  },
+  {
+    "id": "11",
+    "name": "Haiti",
+    "nameCn": "海地",
+    "fifaCode": "HAI",
+    "iso2": "HT",
+    "group": "C",
+    "flag": "https://flagcdn.com/w80/ht.png"
+  },
+  {
+    "id": "12",
+    "name": "Scotland",
+    "nameCn": "苏格兰",
+    "fifaCode": "SCO",
+    "iso2": "SCO",
+    "group": "C",
+    "flag": "https://flagcdn.com/w80/gb-sct.png"
+  },
+  {
+    "id": "13",
+    "name": "United States",
+    "nameCn": "美国",
+    "fifaCode": "USA",
+    "iso2": "US",
+    "group": "D",
+    "flag": "https://flagcdn.com/w80/us.png"
+  },
+  {
+    "id": "14",
+    "name": "Paraguay",
+    "nameCn": "巴拉圭",
+    "fifaCode": "PAR",
+    "iso2": "PY",
+    "group": "D",
+    "flag": "https://flagcdn.com/w80/py.png"
+  },
+  {
+    "id": "15",
+    "name": "Australia",
+    "nameCn": "澳大利亚",
+    "fifaCode": "AUS",
+    "iso2": "AU",
+    "group": "D",
+    "flag": "https://flagcdn.com/w80/au.png"
+  },
+  {
+    "id": "16",
+    "name": "Turkey",
+    "nameCn": "土耳其",
+    "fifaCode": "TUR",
+    "iso2": "TR",
+    "group": "D",
+    "flag": "https://flagcdn.com/w80/tr.png"
+  },
+  {
+    "id": "17",
+    "name": "Germany",
+    "nameCn": "德国",
+    "fifaCode": "GER",
+    "iso2": "DE",
+    "group": "E",
+    "flag": "https://flagcdn.com/w80/de.png"
+  },
+  {
+    "id": "18",
+    "name": "Curaçao",
+    "nameCn": "库拉索",
+    "fifaCode": "CUW",
+    "iso2": "CW",
+    "group": "E",
+    "flag": "https://flagcdn.com/w80/cw.png"
+  },
+  {
+    "id": "19",
+    "name": "Ivory Coast",
+    "nameCn": "科特迪瓦",
+    "fifaCode": "CIV",
+    "iso2": "CI",
+    "group": "E",
+    "flag": "https://flagcdn.com/w80/ci.png"
+  },
+  {
+    "id": "20",
+    "name": "Ecuador",
+    "nameCn": "厄瓜多尔",
+    "fifaCode": "ECU",
+    "iso2": "EC",
+    "group": "E",
+    "flag": "https://flagcdn.com/w80/ec.png"
+  },
+  {
+    "id": "21",
+    "name": "Netherlands",
+    "nameCn": "荷兰",
+    "fifaCode": "NED",
+    "iso2": "NL",
+    "group": "F",
+    "flag": "https://flagcdn.com/w80/nl.png"
+  },
+  {
+    "id": "22",
+    "name": "Japan",
+    "nameCn": "日本",
+    "fifaCode": "JPN",
+    "iso2": "JP",
+    "group": "F",
+    "flag": "https://flagcdn.com/w80/jp.png"
+  },
+  {
+    "id": "23",
+    "name": "Sweden",
+    "nameCn": "瑞典",
+    "fifaCode": "SWE",
+    "iso2": "SE",
+    "group": "F",
+    "flag": "https://flagcdn.com/w80/se.png"
+  },
+  {
+    "id": "24",
+    "name": "Tunisia",
+    "nameCn": "突尼斯",
+    "fifaCode": "TUN",
+    "iso2": "TN",
+    "group": "F",
+    "flag": "https://flagcdn.com/w80/tn.png"
+  },
+  {
+    "id": "25",
+    "name": "Belgium",
+    "nameCn": "比利时",
+    "fifaCode": "BEL",
+    "iso2": "BE",
+    "group": "G",
+    "flag": "https://flagcdn.com/w80/be.png"
+  },
+  {
+    "id": "26",
+    "name": "Egypt",
+    "nameCn": "埃及",
+    "fifaCode": "EGY",
+    "iso2": "EG",
+    "group": "G",
+    "flag": "https://flagcdn.com/w80/eg.png"
+  },
+  {
+    "id": "27",
+    "name": "Iran",
+    "nameCn": "伊朗",
+    "fifaCode": "IRN",
+    "iso2": "IR",
+    "group": "G",
+    "flag": "https://flagcdn.com/w80/ir.png"
+  },
+  {
+    "id": "28",
+    "name": "New Zealand",
+    "nameCn": "新西兰",
+    "fifaCode": "NZL",
+    "iso2": "NZ",
+    "group": "G",
+    "flag": "https://flagcdn.com/w80/nz.png"
+  },
+  {
+    "id": "29",
+    "name": "Spain",
+    "nameCn": "西班牙",
+    "fifaCode": "ESP",
+    "iso2": "ES",
+    "group": "H",
+    "flag": "https://flagcdn.com/w80/es.png"
+  },
+  {
+    "id": "30",
+    "name": "Cape Verde",
+    "nameCn": "佛得角",
+    "fifaCode": "CPV",
+    "iso2": "CV",
+    "group": "H",
+    "flag": "https://flagcdn.com/w80/cv.png"
+  },
+  {
+    "id": "31",
+    "name": "Saudi Arabia",
+    "nameCn": "沙特阿拉伯",
+    "fifaCode": "KSA",
+    "iso2": "SA",
+    "group": "H",
+    "flag": "https://flagcdn.com/w80/sa.png"
+  },
+  {
+    "id": "32",
+    "name": "Uruguay",
+    "nameCn": "乌拉圭",
+    "fifaCode": "URU",
+    "iso2": "UY",
+    "group": "H",
+    "flag": "https://flagcdn.com/w80/uy.png"
+  },
+  {
+    "id": "33",
+    "name": "France",
+    "nameCn": "法国",
+    "fifaCode": "FRA",
+    "iso2": "FR",
+    "group": "I",
+    "flag": "https://flagcdn.com/w80/fr.png"
+  },
+  {
+    "id": "34",
+    "name": "Senegal",
+    "nameCn": "塞内加尔",
+    "fifaCode": "SEN",
+    "iso2": "SN",
+    "group": "I",
+    "flag": "https://flagcdn.com/w80/sn.png"
+  },
+  {
+    "id": "35",
+    "name": "Iraq",
+    "nameCn": "伊拉克",
+    "fifaCode": "IRQ",
+    "iso2": "IQ",
+    "group": "I",
+    "flag": "https://flagcdn.com/w80/iq.png"
+  },
+  {
+    "id": "36",
+    "name": "Norway",
+    "nameCn": "挪威",
+    "fifaCode": "NOR",
+    "iso2": "NO",
+    "group": "I",
+    "flag": "https://flagcdn.com/w80/no.png"
+  },
+  {
+    "id": "37",
+    "name": "Argentina",
+    "nameCn": "阿根廷",
+    "fifaCode": "ARG",
+    "iso2": "AR",
+    "group": "J",
+    "flag": "https://flagcdn.com/w80/ar.png"
+  },
+  {
+    "id": "38",
+    "name": "Algeria",
+    "nameCn": "阿尔及利亚",
+    "fifaCode": "ALG",
+    "iso2": "DZ",
+    "group": "J",
+    "flag": "https://flagcdn.com/w80/dz.png"
+  },
+  {
+    "id": "39",
+    "name": "Austria",
+    "nameCn": "奥地利",
+    "fifaCode": "AUT",
+    "iso2": "AT",
+    "group": "J",
+    "flag": "https://flagcdn.com/w80/at.png"
+  },
+  {
+    "id": "40",
+    "name": "Jordan",
+    "nameCn": "约旦",
+    "fifaCode": "JOR",
+    "iso2": "JO",
+    "group": "J",
+    "flag": "https://flagcdn.com/w80/jo.png"
+  },
+  {
+    "id": "41",
+    "name": "Portugal",
+    "nameCn": "葡萄牙",
+    "fifaCode": "POR",
+    "iso2": "PT",
+    "group": "K",
+    "flag": "https://flagcdn.com/w80/pt.png"
+  },
+  {
+    "id": "42",
+    "name": "Democratic Republic of the Congo",
+    "nameCn": "刚果(金)",
+    "fifaCode": "COD",
+    "iso2": "CD",
+    "group": "K",
+    "flag": "https://flagcdn.com/w80/cd.png"
+  },
+  {
+    "id": "43",
+    "name": "Uzbekistan",
+    "nameCn": "乌兹别克斯坦",
+    "fifaCode": "UZB",
+    "iso2": "UZ",
+    "group": "K",
+    "flag": "https://flagcdn.com/w80/uz.png"
+  },
+  {
+    "id": "44",
+    "name": "Colombia",
+    "nameCn": "哥伦比亚",
+    "fifaCode": "COL",
+    "iso2": "CO",
+    "group": "K",
+    "flag": "https://flagcdn.com/w80/co.png"
+  },
+  {
+    "id": "45",
+    "name": "England",
+    "nameCn": "英格兰",
+    "fifaCode": "ENG",
+    "iso2": "ENG",
+    "group": "L",
+    "flag": "https://flagcdn.com/w80/gb-eng.png"
+  },
+  {
+    "id": "46",
+    "name": "Croatia",
+    "nameCn": "克罗地亚",
+    "fifaCode": "CRO",
+    "iso2": "HR",
+    "group": "L",
+    "flag": "https://flagcdn.com/w80/hr.png"
+  },
+  {
+    "id": "47",
+    "name": "Ghana",
+    "nameCn": "加纳",
+    "fifaCode": "GHA",
+    "iso2": "GH",
+    "group": "L",
+    "flag": "https://flagcdn.com/w80/gh.png"
+  },
+  {
+    "id": "48",
+    "name": "Panama",
+    "nameCn": "巴拿马",
+    "fifaCode": "PAN",
+    "iso2": "PA",
+    "group": "L",
+    "flag": "https://flagcdn.com/w80/pa.png"
+  }
+]

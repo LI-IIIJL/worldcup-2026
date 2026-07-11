@@ -1,0 +1,47 @@
+# ===== Android =====
+*.iml
+.gradle/
+build/
+local.properties
+
+# ===== 安全（绝对不提交） =====
+keystore/
+**/CONFIG.js
+**/config.js
+*.properties
+
+# ===== ML 模型文件（大文件，不用） =====
+*.pth
+*.pt
+*.onnx
+
+# ===== 人脸照片库（App 不用） =====
+**/face_db/
+
+# ===== 第三方项目（不是你写的） =====
+Github_Support/
+
+# ===== 废弃/过渡模块 =====
+AR_Module/
+Design_Module/
+
+# ===== 原始开发日志（已精选到 docs/decisions/） =====
+Efforts/
+
+# ===== ML 数据缓存 =====
+MachineLearning_Module/data/
+MachineLearning_Module/models/
+MachineLearning_Module/archive/
+
+# ===== 未完成的微信小程序 =====
+Wechat_lilprog/
+
+# ===== IDE =====
+.idea/
+*.swp
+*.swo
+
+# ===== Python =====
+__pycache__/
+*.pyc
+venv/

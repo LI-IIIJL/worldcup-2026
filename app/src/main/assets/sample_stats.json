@@ -1,0 +1,72 @@
+{
+  "player_stats": [
+    {
+      "player_name": "Lionel Messi",
+      "team": "Argentina",
+      "goals": 3,
+      "assists": 2,
+      "appearances": 5,
+      "minutes_played": 450,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player_name": "Kylian Mbappé",
+      "team": "France",
+      "goals": 4,
+      "assists": 1,
+      "appearances": 5,
+      "minutes_played": 480,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player_name": "Harry Kane",
+      "team": "England",
+      "goals": 3,
+      "assists": 1,
+      "appearances": 4,
+      "minutes_played": 360,
+      "yellow_cards": 0,
+      "red_cards": 0
+    }
+  ],
+  "team_stats": [
+    {
+      "team": "Argentina",
+      "matches_played": 5,
+      "wins": 4,
+      "draws": 1,
+      "losses": 0,
+      "goals_for": 12,
+      "goals_against": 3,
+      "yellow_cards": 8,
+      "red_cards": 0,
+      "possession_avg": 58.5
+    },
+    {
+      "team": "France",
+      "matches_played": 5,
+      "wins": 4,
+      "draws": 0,
+      "losses": 1,
+      "goals_for": 11,
+      "goals_against": 4,
+      "yellow_cards": 6,
+      "red_cards": 0,
+      "possession_avg": 55.2
+    },
+    {
+      "team": "England",
+      "matches_played": 4,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "goals_for": 8,
+      "goals_against": 3,
+      "yellow_cards": 5,
+      "red_cards": 0,
+      "possession_avg": 52.8
+    }
+  ]
+}

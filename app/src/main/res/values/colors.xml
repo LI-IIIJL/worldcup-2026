@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- ⚡ 霓虹绿茵 (Neon Pitch) 色彩体系 ⚡ -->
+
+    <!-- 夜空背景层 -->
+    <color name="bg_primary">#0F0F23</color>
+    <color name="bg_secondary">#1A1A2E</color>
+    <color name="bg_tertiary">#252542</color>
+    <color name="bg_hover">#2A2A4A</color>
+
+    <!-- 文字层 -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8888AA</color>
+    <color name="text_muted">#555577</color>
+
+    <!-- 强调色 - 暖橙 -->
+    <color name="accent_orange">#FF6B35</color>
+    <color name="accent_orange_light">#FF8C42</color>
+
+    <!-- 霓虹绿 - 出线/在线/积极 -->
+    <color name="neon_green">#00CC66</color>
+    <color name="neon_green_light">#00E676</color>
+
+    <!-- 直播红 -->
+    <color name="live_red">#FF4444</color>
+    <color name="live_red_light">#FF6B6B</color>
+
+    <!-- 客队蓝 -->
+    <color name="away_blue">#4488FF</color>
+
+    <!-- 警告橙 - 半场/黄牌 -->
+    <color name="warning_orange">#FF8800</color>
+
+    <!-- 边框 -->
+    <color name="border_default">#2A2A4A</color>
+    <color name="border_focus">#3A3A6A</color>
+
+    <!-- Legacy aliases for backward compatibility -->
+    <color name="dark_bg">#0F0F23</color>
+    <color name="dark_surface">#1A1A2E</color>
+    <color name="accent_red">#FF4444</color>
+    <color name="accent_green">#00CC66</color>
+    <color name="accent_gold">#FF6B35</color>
+</resources>

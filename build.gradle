@@ -1,0 +1,5 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '9.2.1' apply false
+    // AGP 9.x 已内置 Kotlin 支持，无需声明 kotlin-android 插件
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Bar chart / data icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M4,9h3v10H4zM9,5h3v14H9zM14,11h3v8h-3z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M21,3H3v18h18V3zM19,19H5V5h14V19z"
+        android:fillAlpha="0.3" />
+</vector>

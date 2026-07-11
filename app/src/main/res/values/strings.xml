@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WorldCup 观赛助手</string>
+
+    <!-- Bottom Navigation -->
+    <string name="tab_schedule">赛程</string>
+    <string name="tab_teams">球队</string>
+    <string name="tab_predict">预测</string>
+
+    <!-- Team Detail -->
+    <string name="unknown_player">未知球员</string>
+    <string name="position_gk">守门员</string>
+    <string name="position_df">后卫</string>
+    <string name="position_mf">中场</string>
+    <string name="position_fw">前锋</string>
+    <string name="player_stats">球员数据</string>
+    <string name="position_label">位置</string>
+
+    <!-- Match Detail -->
+    <string name="match_info">比赛信息</string>
+    <string name="ai_prediction">AI 预测</string>
+</resources>

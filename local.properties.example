@@ -1,0 +1,26 @@
+# ============================================================
+# World Cup 2026 — local.properties 模板
+# 复制此文件为 local.properties，填入你的 API Key
+# ============================================================
+# Android SDK 路径（Android Studio 会自动填入）
+# sdk.dir=C:\\Users\\你的用户名\\AppData\\Local\\Android\\Sdk
+
+# ============================================================
+# API Keys（从 BuildConfig 注入，不进版本控制）
+# ============================================================
+
+# football-data.org (免费套餐即可)
+# https://www.football-data.org/client/register
+FOOTBALL_DATA_API_KEY=在此填入你的 football-data.org Key
+
+# api-sports.io (Pro 套餐 $19/月)
+# https://app.api-sports.io/login
+API_SPORTS_KEY=在此填入你的 api-sports Key
+
+# BDL GOAT ($39.99/月)
+# https://bdl.goal.com
+BALLDONTLIE_API_KEY=在此填入你的 BDL GOAT Key
+
+# LongCat AI (免费 5M tokens/天)
+# https://longcat.ai
+DEEPSEEK_API_KEY=在此填入你的 LongCat AI Key

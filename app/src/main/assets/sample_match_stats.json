@@ -1,0 +1,189 @@
+{
+  "matches": {
+    "1": {
+      "homeTeam": "Mexico",
+      "homeTeamCn": "墨西哥",
+      "awayTeam": "South Africa",
+      "awayTeamCn": "南非",
+      "homeScore": 2,
+      "awayScore": 0,
+      "teamStats": {
+        "home": {
+          "possession": 55,
+          "shots": 14,
+          "shotsOnTarget": 6,
+          "corners": 7,
+          "fouls": 12,
+          "yellowCards": 2,
+          "redCards": 0,
+          "offsides": 2,
+          "passes": 450,
+          "passAccuracy": 83,
+          "expectedGoals": 2.2
+        },
+        "away": {
+          "possession": 45,
+          "shots": 8,
+          "shotsOnTarget": 3,
+          "corners": 4,
+          "fouls": 14,
+          "yellowCards": 3,
+          "redCards": 0,
+          "offsides": 1,
+          "passes": 380,
+          "passAccuracy": 78,
+          "expectedGoals": 0.0
+        }
+      },
+      "playerStats": []
+    },
+    "2": {
+      "homeTeam": "South Korea",
+      "homeTeamCn": "韩国",
+      "awayTeam": "Czech Republic",
+      "awayTeamCn": "捷克",
+      "homeScore": 1,
+      "awayScore": 2,
+      "teamStats": {
+        "home": {
+          "possession": 55,
+          "shots": 14,
+          "shotsOnTarget": 6,
+          "corners": 7,
+          "fouls": 12,
+          "yellowCards": 2,
+          "redCards": 0,
+          "offsides": 2,
+          "passes": 450,
+          "passAccuracy": 83,
+          "expectedGoals": 1.1
+        },
+        "away": {
+          "possession": 45,
+          "shots": 8,
+          "shotsOnTarget": 3,
+          "corners": 4,
+          "fouls": 14,
+          "yellowCards": 3,
+          "redCards": 0,
+          "offsides": 1,
+          "passes": 380,
+          "passAccuracy": 78,
+          "expectedGoals": 2.2
+        }
+      },
+      "playerStats": []
+    },
+    "3": {
+      "homeTeam": "Canada",
+      "homeTeamCn": "加拿大",
+      "awayTeam": "Bosnia and Herzegovina",
+      "awayTeamCn": "波黑",
+      "homeScore": 0,
+      "awayScore": 2,
+      "teamStats": {
+        "home": {
+          "possession": 55,
+          "shots": 14,
+          "shotsOnTarget": 6,
+          "corners": 7,
+          "fouls": 12,
+          "yellowCards": 2,
+          "redCards": 0,
+          "offsides": 2,
+          "passes": 450,
+          "passAccuracy": 83,
+          "expectedGoals": 0.0
+        },
+        "away": {
+          "possession": 45,
+          "shots": 8,
+          "shotsOnTarget": 3,
+          "corners": 4,
+          "fouls": 14,
+          "yellowCards": 3,
+          "redCards": 0,
+          "offsides": 1,
+          "passes": 380,
+          "passAccuracy": 78,
+          "expectedGoals": 2.2
+        }
+      },
+      "playerStats": []
+    },
+    "4": {
+      "homeTeam": "United States",
+      "homeTeamCn": "美国",
+      "awayTeam": "Paraguay",
+      "awayTeamCn": "巴拉圭",
+      "homeScore": 3,
+      "awayScore": 1,
+      "teamStats": {
+        "home": {
+          "possession": 55,
+          "shots": 14,
+          "shotsOnTarget": 6,
+          "corners": 7,
+          "fouls": 12,
+          "yellowCards": 2,
+          "redCards": 0,
+          "offsides": 2,
+          "passes": 450,
+          "passAccuracy": 83,
+          "expectedGoals": 3.3
+        },
+        "away": {
+          "possession": 45,
+          "shots": 8,
+          "shotsOnTarget": 3,
+          "corners": 4,
+          "fouls": 14,
+          "yellowCards": 3,
+          "redCards": 0,
+          "offsides": 1,
+          "passes": 380,
+          "passAccuracy": 78,
+          "expectedGoals": 1.1
+        }
+      },
+      "playerStats": []
+    },
+    "5": {
+      "homeTeam": "Haiti",
+      "homeTeamCn": "海地",
+      "awayTeam": "Scotland",
+      "awayTeamCn": "苏格兰",
+      "homeScore": 3,
+      "awayScore": 0,
+      "teamStats": {
+        "home": {
+          "possession": 55,
+          "shots": 14,
+          "shotsOnTarget": 6,
+          "corners": 7,
+          "fouls": 12,
+          "yellowCards": 2,
+          "redCards": 0,
+          "offsides": 2,
+          "passes": 450,
+          "passAccuracy": 83,
+          "expectedGoals": 3.3
+        },
+        "away": {
+          "possession": 45,
+          "shots": 8,
+          "shotsOnTarget": 3,
+          "corners": 4,
+          "fouls": 14,
+          "yellowCards": 3,
+          "redCards": 0,
+          "offsides": 1,
+          "passes": 380,
+          "passAccuracy": 78,
+          "expectedGoals": 0.0
+        }
+      },
+      "playerStats": []
+    }
+  }
+}

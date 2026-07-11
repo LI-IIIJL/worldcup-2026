@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 霓虹绿茵 (Neon Pitch) 主题 -->
+    <style name="Theme.ScanningPlayer" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- 品牌色 -->
+        <item name="colorPrimary">#FF6B35</item>
+        <item name="colorPrimaryVariant">#FF8C42</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#00CC66</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorTertiary">#4488FF</item>
+        <!-- 背景 -->
+        <item name="android:statusBarColor">#0F0F23</item>
+        <item name="android:windowBackground">#0F0F23</item>
+        <item name="android:navigationBarColor">#0F0F23</item>
+        <!-- 动画 -->
+        <item name="android:windowAnimationStyle">@style/WindowAnimations</item>
+    </style>
+
+    <style name="WindowAnimations">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+</resources>
