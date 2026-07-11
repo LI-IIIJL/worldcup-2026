@@ -34,7 +34,7 @@
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/你的名字/worldcup-2026.git
+git clone https://github.com/LI-IIIJL/worldcup-2026.git
 # 用 Android Studio 打开仓库根目录 → Sync Gradle → Run
 ```
 
